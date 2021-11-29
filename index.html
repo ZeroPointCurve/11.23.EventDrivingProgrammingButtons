@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #grad1 {
+            height: 125px;
+            background-image: linear-gradient(to right, red, yellow);
+        }
+    </style>
+    <!--Displays color header-->
+    <title>UAT Space Program</title>
+    <!--Tab Title-->
+    <meta name="author" content="Charles Collupy">
+    <script src="script.js"></script>
+    <!--links javascript-->
+</head>
+
+<body>
+    <div id="grad1"></div>
+    <img src="UATspaceLogo-1.jpg" alt="UAT Space Logo">
+    <!--Displays photo-->
+    <h1>UAT Space Program</h1>
+    <table id="data" width="70%" border="2">
+        <thead>
+            <th>Data type</th>
+            <th>Reading</th>
+        </thead>
+        <tbody>
+            <tr id="seconds">
+                <td>Time Elasped</td>
+                <td>24 seconds</td>
+            </tr>
+            <tr id="latitude">
+                <td>Latitude</td>
+                <td>10</td>
+            </tr>
+            <tr id="longitude">
+                <td>Longitude</td>
+                <td>11</td>
+            </tr>
+            <tr id="gps_altiude">
+                <td>GPS Altitude</td>
+                <td>12</td>
+            </tr>
+            <tr id="bmpSensor_altitude">
+                <td>BMP Sensor Altitude</td>
+                <td>3435.32</td>
+            </tr>
+            <tr id="bmpSensor_pressure">
+                <td>BMP Sensor Pressure</td>
+                <td>3.2232</td>
+            </tr>
+            <tr id="bmpSensor_temp">
+                <td>BMP Sensor Temperature</td>
+                <td>12</td>
+            </tr>
+            <tr id="digSensor_temp">
+                <td>Digital Sensor Temperature</td>
+                <td>323.4224</td>
+            </tr>
+            <tr id="cssSensor_temp">
+                <td>CSS Sensor Temperature</td>
+                <td>2323.32</td>
+            </tr>
+            <tr id="cssSensor_eCO2">
+                <td>CSS Sensor eCO2</td>
+                <td>2332.2323</td>
+            </tr>
+            <tr id="cssSensor_TVOC">
+                <td>CSS Sensor VOC</td>
+                <td>3223</td>
+            </tr>
+            <tr id="UV">
+                <td>UV</td>
+                <td>2323</td>
+            </tr>
+            <tr id="acce1X">
+                <td>Accel. X</td>
+                <td>2323.2323</td>
+            </tr>
+            <tr id="acce1Y">
+                <td>Accel. Y</td>
+                <td>232.23</td>
+            </tr>
+            <tr id="acce1Z">
+                <td>Accel. Z</td>
+                <td>23.23</td>
+            </tr>
+            <tr id="magneticX">
+                <td>Magnetic X</td>
+                <td>23.32</td>
+            </tr>
+            <tr id="magneticY">
+                <td>Magnetic Y</td>
+                <td>23.2323</td>
+            </tr>
+            <tr id="magneticZ">
+                <td>Magnetic Z</td>
+                <td>2323.234</td>
+            </tr>
+            <tr id="gyroX">
+                <td>Gyro X</td>
+                <td>23.3223</td>
+            </tr>
+            <tr id="gyroY">
+                <td>Gyro Y</td>
+                <td>32.3223</td>
+            </tr>
+            <tr id="gyroZ">
+                <td>Gyro Z</td>
+                <td>23.2323</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        document.write("Test of the document write function");
+    </script><br>
+    <p>Test of the paragraph tages</p>
+    <h2>Count Down Till Launch:</h2>
+    <p id="CountDown">Ignition Countdown</p>
+    <!--Sets position for id-->
+    <button onclick="IgnitionSequence()">Ignition</button>
+    <button onclick="AbortAbort()">Abort</button>
+    <!--Creates buttons-->
+    <p id="Craps">Let's Play a Game!</p>
+    <p id="Die2"></p>
+    <button onclick="RollDie()">Good Luck</button>
+    <p id="DieTotal"></p>
+    <p id="CrapOut"></p>
+
+</body>
+
+</html>
